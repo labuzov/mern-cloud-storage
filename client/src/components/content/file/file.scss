@@ -1,0 +1,37 @@
+.file {
+    display: flex;
+    align-items: center;
+    padding: 2px 0;
+    border-bottom: 1px solid var(--color-border);
+    background-color: var(--color-background);
+    
+
+    &__name {
+        display: flex;
+        align-items: center;
+        padding: 12px 0;
+        transition: .05s;
+
+        &:hover {
+            cursor: pointer;
+
+            path {
+                fill: var(--color-text-primary)
+            }
+        }
+
+        svg {
+            margin: 0 16px;
+        }
+
+        path {
+            fill: var(--color-text-secondary)
+        }
+    }
+    
+
+    &__date,
+    &__size {
+        color: var(--color-text-secondary);
+    }
+}

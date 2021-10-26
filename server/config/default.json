@@ -1,0 +1,6 @@
+{
+    "serverPort": 5000,
+    "dbUrl": "mongodb+srv://admin:cthutq@cluster0.eq2xd.mongodb.net/cloud?retryWrites=true&w=majority",
+    "secretKey": "my-secret-key",
+    "filesPath": "D:\\Code\\fullstack\\cloud-storage\\server\\files"
+}
