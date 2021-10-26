@@ -2,8 +2,7 @@
 
 ## Stack
 
-MERN:
--MongoDB, 
--Express, 
--React, 
--NodeJS
+* MongoDB, 
+* Express, 
+* React, 
+* NodeJS
